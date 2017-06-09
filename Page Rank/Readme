@@ -1,0 +1,13 @@
+I have created 3 programs.Input to my file is "wiki-micro.txt" for which I have given path in Main Program.
+
+First program(Map.java,Reduce.java):-
+
+In this program, I have written code to give output with titles and its links seperated by commas and initial page rank.
+
+Second Program(Map1.java,Reduce1.java)
+
+In this program, I am iterating for 5 times to give output with titles and its page ranks.
+
+Third Program(Map2.java,Reducer2.java):
+
+In this I have written code to swap the values and keys. As there are many page ranks with same values, I have concatenated the titles with "-" that have same page rank.

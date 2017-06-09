@@ -1,0 +1,29 @@
+Hadoop version -2.2
+Java version-8
+Hbase version-0.98
+
+The below logic is in 'MapReduce' folder:-
+
+I have inserted the data in a table in Hbase using Java Program.Table name is 'bighw3'.
+I have created a logic in MapReduce program that I have done for Homework1 to insert data into table 'bighw3'.
+Arguments for this program are input text file,path to the output file and 3rd argument is 'part-00000' file which is output file of the Map Reduce program.
+
+I have inserted data into two column families "key" and "number"
+"key" column in the "key" column family contains words with combination with other words like "you-too".
+"number" column in the "number" column family contains number of times the combination occurs.
+
+The below logic is in 'webpage' folder:-
+
+I have created a html file name -'index.html'.
+
+Then i have created a servlet -'bigd.java'.
+
+once 'index.html' is executed it will open a web page asking to choose to search with one word or two words.
+if its oneword search enter one word and enter option 1 and click on 'submit' button.
+if its tow word search enter tow words in the columns '1st word' and '2nd word' and enter option 2 and then submit.
+
+if its option 1 you will see the output with 1st word and their combinations with other words and how many times it occurs.
+if its otion 2 you will see the number of times those two words occurs in the input file.
+
+
+
